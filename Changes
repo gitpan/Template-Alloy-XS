@@ -1,0 +1,6 @@
+Revision history for Perl extension Template::Alloy::XS.
+
+1.001
+      2007/06/07
+        - Rerelease or CGI::Ex::Template::XS after move
+          of CGI::Ex::Template to Template::Alloy
