@@ -6,7 +6,7 @@ WriteMakefile(
     NAME              => 'Template::Alloy::XS',
     VERSION_FROM      => 'lib/Template/Alloy/XS.pm', # finds $VERSION
     PREREQ_PM         => {
-        'CGI::Ex' => '2.13',
+        'Template::Alloy' => '1.002',
     }, # e.g., Module::Name => 1.1
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM  => 'lib/Template/Alloy/XS.pm', # retrieve abstract from module
