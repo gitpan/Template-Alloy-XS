@@ -35,7 +35,7 @@ my $swap = {
 #use Template::Stash;;
 #my $s = Template::Stash->new($swap);
 use Template::Stash::XS;
-$s = Template::Stash::XS->new($swap);
+my $s = Template::Stash::XS->new($swap);
 
 ###----------------------------------------------------------------###
 ### get objects ready
